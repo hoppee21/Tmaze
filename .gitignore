@@ -1,0 +1,22 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+.idea/
+
+# Raw DeepLabCut exports and generated analysis outputs
+*.csv
+analysis_results/
+tmaze_coordinate_aligned/
+
+# Common large/local artifacts
+*.avi
+*.mp4
+*.mov
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Keep small project metadata tracked if needed
+!requirements.txt
+!README.md
