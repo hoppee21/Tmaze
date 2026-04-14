@@ -20,13 +20,13 @@ This project contains scripts for processing DeepLabCut T-maze tracking exports.
 Use the Anaconda `data` environment:
 
 ```powershell
-& "C:\Users\17809\anaconda3\envs\data\python.exe" "C:\work\Tmaze\align_tmaze_coordinate_system.py"
+conda run -n data python align_tmaze_coordinate_system.py
 ```
 
 Outputs are written to:
 
 ```text
-C:\work\Tmaze\tmaze_coordinate_aligned
+tmaze_coordinate_aligned/
 ```
 
 The output CSV files include raw pixel coordinates, aligned pixel coordinates, centimeter coordinates, and QC flags:
